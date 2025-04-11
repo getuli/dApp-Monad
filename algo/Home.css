@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+  }
+  
+  .header {
+    background: #1a1a1a;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  .title {
+    color: #ff7f50;
+    margin: 0;
+  }
+  
+  .walletBtn {
+    background: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .container {
+    padding: 60px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background: #1f1f1f;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 127, 80, 0.2);
+  }
+  
+  .image {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+  }
+  
+  .info {
+    padding: 20px;
+  }
+  
+  .catName {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #ff7f50;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin: 10px 0;
+  }
+  
+  .mintBtn {
+    background: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    color: #666666;
+    background-color: #111111 ;
+  }
+  
+  .texto{
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black ;
+  }
+  .hr{
+    width: 75%;
+  }
